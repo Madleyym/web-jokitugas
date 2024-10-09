@@ -3,9 +3,9 @@ import ButtonMode from "@/components/btnMode";
 
 export default function Navbar() {
     return (
-        <nav className="flex justify-between w-full px-12 py-4 sticky top-0">
+        <nav className="flex justify-between w-full px-12 py-4 sticky top-0 backdrop-blur-lg    ">
             <Link href="/" className="text-2xl font-bold">
-                Joki <span className="text-red-700">Tugas</span>
+                Joki <span className="text-fg">Tugas</span>
             </Link>
 
             <div className="flex gap-4">
