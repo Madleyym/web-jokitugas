@@ -10,18 +10,18 @@ export default function Features() {
 
 const features = [
     {
-        title: "Feature 1",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nunc justo, tincidunt eu libero non, luctus pretium mi. Donec nec erat ut purus lacinia tristique.",
-        "link": "#"
+        title: "Tugas Apapun Bisa",
+        icon: "carbon:tool-kit",
+        description: "Buatin Tugasku telah mengerjakan hampir 90% dari berbagai jenis tugas yang pernah ditanyakan ke tim kami dengan hasil yang sangat baik dan memuaskan.",
     },
     {
-        title: "Feature 2",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nunc justo, tincidunt eu libero non, luctus pretium mi. Donec nec erat ut purus l",
-        "link": "#"
+        title: "Privasi Terjaga 100%",
+        icon: "gala:secure",
+        description: "Buatin Tugasku telah berkomitmen untuk selalu menjaga dan meningkatkan keamanan serta privasi pelanggan dalam hal apapun secara jelas dan tegas.",
     },
     {
-        title: "Feature 3",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nunc justo, tincidunt eu libero non, luctus pretium mi. Donec nec erat ut purus lacinia tristique.",
-        "link": "#"
+        title: "Layanan Cepat 24 Jam",
+        icon: "mdi:clock-fast",
+        description: "Buatin Tugasku akan membantu mengatasi permasalahan tugasmu serta memberikan konsultasi secara cepat dan tepat selama 24 jam melalui WhatsApp dan LINE",
     },
 ]
