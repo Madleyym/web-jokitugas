@@ -26,12 +26,12 @@ export default function ButtonMode() {
     return (
         <button
             onClick={() => setDarkTheme(!darkTheme)}
-            className="rounded-full text-2xl text-yellow-500 dark:text-yellow-500 hover:bg-yellow-100 dark:hover:bg-yellow-900 p-2 transition-colors duration-300 ease-in-out"
+            className="rounded-full text-2xl text-yellow-500 dark:text-yellow-500 hover:bg-slate-800/[0.8] dark:hover:bg-bg p-2 transition-colors duration-400 ease-in-out"
         >
             {darkTheme ? (
                 <Icon icon="tdesign:sunny" />
             ) : (
-                <Icon icon="tdesign:mode-dark" />
+                <Icon icon="line-md:moon-alt-loop" />
             )}
         </button>
     );
