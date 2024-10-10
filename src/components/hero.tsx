@@ -1,4 +1,5 @@
 import Image from "next/image";
+import BtnPrimary from "@/components/btnPrimary";
 
 export default function Hero() {
     return(
@@ -12,6 +13,7 @@ export default function Hero() {
                     <p>Melayani <b className="font-bold">pembuatan tugas</b> mulai dari sekolah s/d kuliah.
                     </p>
                 </div>
+                <BtnPrimary txt="Konsultasikan Sekarang" classname="w-max" />
             </div>
 
             <Image src="/hero-banner.png" alt="banner-home" width={1000} height={1000}/>
