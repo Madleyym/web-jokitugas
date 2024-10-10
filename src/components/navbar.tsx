@@ -16,7 +16,7 @@ export default function Navbar() {
                 <Link href="/cara-order" className="text-lg">
                     Cara Order
                 </Link>
-                <Link href="/contact" className="text-lg">
+                <Link href="/testimonials" className="text-lg">
                     Testimonial
                 </Link>
                 <Link href="/blog" className="text-lg">
