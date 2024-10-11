@@ -2,8 +2,8 @@ import {Icon} from "@iconify/react";
 
 export const Card = ({icon, title, detail}: { icon: string, title: string, detail: string }) => {
     return (
-        <div className="flex flex-col p-4 text-white">
-            <div className="text-6xl font-bold w-full text-center">
+        <div className="text-center flex flex-col p-4 text-white">
+            <div className="text-3xl lg:text-6xl font-bold w-full text-center">
                 <Icon icon={icon} className="mx-auto -mb-8 text-zinc-100/45"/>
                 <h4>{title}</h4>
             </div>
