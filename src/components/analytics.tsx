@@ -14,7 +14,7 @@ export const Card = ({icon, title, detail}: { icon: string, title: string, detai
 
 export default function Analytics() {
     return (
-        <div className="bg-fg flex rounded-2xl my-10">
+        <div className="bg-fg flex rounded-2xl my-20">
             <Card icon="mdi:account-student" title="500" detail="Total Pelanggan"/>
             <Card icon="basil:book-open-solid" title="1200" detail="Tugas Diselesaikan"/>
             <Card icon="fa-solid:university" title="50" detail="Universitas Berbeda"/>
