@@ -3,7 +3,7 @@ import {Icon} from "@iconify/react";
 
 function Anchor({ href, icon, text }: { href: string, icon: string, text: string }) {
     return (
-        <Link href={href} className="flex gap-2 items-center hover:text-fg my-2">
+        <Link href={href} className="flex gap-2 items-center hover:text-fg my-2 w-max">
             <Icon icon={icon} />
             <p>{text}</p>
         </Link>
