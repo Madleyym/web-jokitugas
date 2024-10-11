@@ -11,7 +11,7 @@ export default function Home() {
         <main className="min-h-screen flex flex-col items-center">
             <Hero/>
             <Features/>
-            <div className="flex justify-between w-full px-12">
+            <div className="flex flex-wrap justify-between w-full px-12">
                 <Card
                     image="/at_work.svg"
                     title="Joki Tugas Individu"
