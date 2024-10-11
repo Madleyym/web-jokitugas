@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function BestDeal() {
     return (
-        <div className="flex px-12 items-center gap-8">
+        <div className="flex flex-col md:flex-row px-12 items-center gap-8">
             <Image src="/webinar-amico.svg" alt="Best Choice" width={500} height={500} />
             <div className="flex flex-col gap-4">
                 <h1 className="text-6xl font-bold">Harga Mulai <span className="text-fg">50 ribuan!</span></h1>
