@@ -2,7 +2,7 @@ import {HoverEffect} from "@/components/ui/card-hover-effect";
 
 export default function Features() {
     return (
-        <div className="px-12">
+        <div className="px-4 lg:px-12">
             <HoverEffect items={features} />
         </div>
     )
