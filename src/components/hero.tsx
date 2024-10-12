@@ -3,8 +3,8 @@ import BtnPrimary from "@/components/btnPrimary";
 
 export default function Hero() {
     return(
-        <div className="flex flex-col-reverse lg:flex-row lg:px-12 items-center">
-            <div className="flex flex-col gap-4 lg:w-2/3">
+        <div className="flex flex-col-reverse lg:flex-row px-4 lg:px-12 items-center">
+            <div className="flex flex-col gap-4 px-4 lg:px-0 lg:w-2/3">
                 <p className="text-fg">#jasajokitugas</p>
                 <h1 className="text-3xl lg:text-6xl font-bold">Joki <span className="text-fg">Tugas</span></h1>
                 <h1 className="text-3xl lg:text-6xl font-bold">Murah & Cepat</h1>
