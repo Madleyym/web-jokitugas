@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
+import FloatingChatButton from "@/components/ui/floating-chat-button";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -32,6 +33,7 @@ export default function RootLayout({
       >
       <Navbar />
       {children}
+      <FloatingChatButton />
       <Footer />
       </body>
     </html>
