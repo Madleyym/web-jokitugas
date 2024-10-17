@@ -34,7 +34,7 @@ export default function Navbar() {
     return (
         <nav className={`flex justify-between items-center w-full px-6 py-4 sticky top-0 backdrop-blur-lg z-50 transition-transform duration-300 ${showNavbar ? 'translate-y-0' : '-translate-y-full'}`}>
             <Link href="/" className="text-2xl font-bold">
-                Joki <span className="text-fg">Tugas</span>
+                Joki <span className="text-fg">Tugasku</span>
             </Link>
 
             {/* Menu for large screens */}
