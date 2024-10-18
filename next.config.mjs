@@ -5,9 +5,10 @@ const nextConfig = {
         remotePatterns: [
             {
                 protocol: 'https',
-                hostname: 'assets.aceternity.com',
+                hostname: 'api.dicebear.com',
             }
-        ]
+        ],
+        dangerouslyAllowSVG: true,
     }
 };
 
