@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import FloatingChatButton from "@/components/ui/floating-chat-button";
+import OverlayCustomers from "@/components/overlayCustomers";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -33,6 +34,7 @@ export default function RootLayout({
       >
       <Navbar />
       {children}
+      <OverlayCustomers />
       <FloatingChatButton />
       <Footer />
       </body>
