@@ -16,7 +16,9 @@ export default function Hero() {
                 <BtnPrimary href="https://whatsapp" txt="Konsultasikan Sekarang" classname="w-max" />
             </div>
 
-            <Image src="/hero-banner.png" alt="banner-home" width={1000} height={1000}/>
+            <div>
+                <Image src="/work.png" alt="banner-home" width={1000} height={1000}/>
+            </div>
         </div>
     )
 }
