@@ -20,6 +20,7 @@ const config: Config = {
       },
       animation: {
         scroll: "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+        fadeRight: "fadeRight var(--animation-duration, 1s) var(--animation-direction, forwards) linear",
       },
       keyframes: {
         scroll: {
@@ -27,6 +28,17 @@ const config: Config = {
             transform: "translate(calc(-50% - 0.5rem))",
           },
         },
+        fadeRight: {
+          '0%': {
+            transform: 'translateX(-2rem)',
+          },
+          '50%': {
+            transform: 'translateX(-1rem)',
+          },
+          '100%': {
+            transform: 'translateX(0)',
+          },
+        }
       }
     },
   },
