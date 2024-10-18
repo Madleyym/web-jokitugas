@@ -10,18 +10,18 @@ export default function Features() {
 
 const features = [
     {
-        title: "Tugas Apapun Bisa",
+        title: "Profesional & Berpengalaman",
         icon: "carbon:tool-kit",
-        description: "Buatin Tugasku telah mengerjakan hampir 90% dari berbagai jenis tugas yang pernah ditanyakan ke tim kami dengan hasil yang sangat baik dan memuaskan.",
+        description: "Layanan kami didukung oleh tim profesional yang berpengalaman yang dapat memberikan hasil yang terbaik dan tepat waktu, sehingga Anda bisa merasa aman mempercayakan tugas-tugas penting Anda kepada kami.",
     },
     {
-        title: "Privasi Terjaga 100%",
+        title: "Fleksibel & Terjangkau",
         icon: "gala:secure",
-        description: "Buatin Tugasku telah berkomitmen untuk selalu menjaga dan meningkatkan keamanan serta privasi pelanggan dalam hal apapun secara jelas dan tegas.",
+        description: "Kami menawarkan berbagai paket layanan yang dapat disesuaikan dengan kebutuhan Anda, baik untuk tugas-tugas harian, tugas akhir, maupun proyek lainnya. Kami juga menyediakan konsultasi untuk memastikan tugas yang dikerjakan sesuai dengan keinginan Anda.",
     },
     {
-        title: "Layanan Cepat 24 Jam",
+        title: "Cepat & Tepat waktu",
         icon: "mdi:clock-fast",
-        description: "Buatin Tugasku akan membantu mengatasi permasalahan tugasmu serta memberikan konsultasi secara cepat dan tepat selama 24 jam melalui WhatsApp dan LINE",
+        description: "Kami memahami betapa berharganya waktu Anda, terutama saat menghadapi tenggat waktu yang ketat. Dengan menggunakan layanan joki-tugasku.com, Anda tidak perlu khawatir tentang keterlambatan.",
     },
 ]
