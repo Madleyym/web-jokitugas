@@ -24,12 +24,12 @@ function Container({ text, children }: { text: string, children: React.ReactNode
 export default function Footer() {
     return (
         <footer className="flex flex-col justify-between lg:flex-row gap-10 md:gap-0 px-12 bg-white dark:bg-neutral-950 py-20">
-            <div className="lg:w-2/4">
+            <div className="lg:w-2/4 lg:mr-10">
                 <h1 className="text-2xl font-bold mb-4">Joki <span className="text-fg">Tugas</span></h1>
                 <p
-                    className=""
+                    className="text-sm md:text-base text-neutral-800 dark:text-neutral-200"
                 >
-                    Buatin Tugaskuadalah penyedia layanan jasa joki tugas    terbaik no 1 di Indonesia dan telah berhasil mengerjakan banyak tugas mulai dari tugas sekolah sampai kuliah.
+                    Joki Tugasku adalah penyedia layanan jasa joki tugas terpercaya di Indonesia dan telah berhasil mengerjakan banyak tugas mulai dari tugas sekolah sampai kuliah.
                 </p>
             </div>
 
